@@ -1,0 +1,9 @@
+--- # Ansible project
+- hosts: demo
+  user: ansible
+  become: yes
+  tasks: 
+    - name: war file
+      copy: 
+      src:
+      dest:

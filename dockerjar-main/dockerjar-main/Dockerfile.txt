@@ -1,0 +1,5 @@
+FROM openjdk:8-jdk-alpine
+WORKDIR /test
+COPY target/webfile-latest.jar .
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","webfile-latest.jar"]
