@@ -5,5 +5,5 @@
   tasks: 
     - name: war file
       copy: 
-      src:
+      src: target
       dest:
